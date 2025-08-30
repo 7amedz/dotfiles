@@ -1,0 +1,12 @@
+# Ignore Hyprland runtime files & logs
+hypr/.config/hypr/hyprland.log
+hypr/.config/hypr/hyprland.socket
+*.log
+
+# Ignore cache and temporary directories
+hypr/.config/hypr/cache/
+hypr/.config/hypr/tmp/
+
+# Ignore temporary editor files
+*.swp
+*.un~
