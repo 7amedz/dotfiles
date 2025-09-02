@@ -1,4 +1,5 @@
 brave browser
 tree (cli tool)
 stow
+pwndbg
 
