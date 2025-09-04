@@ -2,4 +2,9 @@ brave browser
 tree (cli tool)
 stow
 pwndbg
+npm
+gping
+superfile    
+snake
+
 
