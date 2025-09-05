@@ -1,4 +1,4 @@
-brave browser
+brave browser                                               COMMENT OUT #set +h in bashrc  (.local/share/omarchy/default/bash/rc)
 tree (cli tool)
 stow
 pwndbg
@@ -6,5 +6,7 @@ npm
 gping
 superfile    
 snake
+checksec
+anaconda
 
 
