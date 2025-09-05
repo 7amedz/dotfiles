@@ -22,3 +22,19 @@ fi
 if ! ssh-add -l >/dev/null 2>&1; then
   ssh-add ~/.ssh/id_ed25519 2>/dev/null
 fi
+
+# >>> conda initialize >>>
+# !! Contents within this block are managed by 'conda init' !!
+__conda_setup="$('/home/hamed/anaconda3/bin/conda' 'shell.bash' 'hook' 2> /dev/null)"
+if [ $? -eq 0 ]; then
+    eval "$__conda_setup"
+else
+    if [ -f "/home/hamed/anaconda3/etc/profile.d/conda.sh" ]; then
+        . "/home/hamed/anaconda3/etc/profile.d/conda.sh"
+    else
+        export PATH="/home/hamed/anaconda3/bin:$PATH"
+    fi
+fi
+unset __conda_setup
+# <<< conda initialize <<<
+
